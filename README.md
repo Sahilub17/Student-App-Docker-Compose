@@ -203,3 +203,9 @@ show databases;
 ```sh
 exit;
 ```
+
+### 8. Docker-compose.yml install
+
+```sh
+docker-compose.yml -y
+```
