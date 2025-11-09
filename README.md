@@ -204,8 +204,11 @@ show databases;
 exit;
 ```
 
-### 8. Docker-compose.yml install
+### 8. Docker-compose.yml 
 
 ```sh
-docker-compose.yml -y
+cd ..
 ```
+```sh
+nano docker-compose.yml
+```sh
