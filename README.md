@@ -96,6 +96,9 @@ apt update
 git clone <GitHub_Repository_Link>
 ```
 #### Example: git clone https://github.com/username/student-registration.git
+
+### 5. Backend
+
 ```sh
 cd <GitHub_Repository_Name>/backend
 
