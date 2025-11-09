@@ -238,3 +238,8 @@ services:
 
 
 ```
+### 9. Docker-compose install
+
+```sh
+apt install docker-compose -y
+```
