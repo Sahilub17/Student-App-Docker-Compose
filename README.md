@@ -135,6 +135,8 @@ nano dockerfile
 
 ```sh
 cd ../frontend/
+```
+```sh
 ls
 ```
 #### Write .env file =
