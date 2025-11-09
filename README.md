@@ -145,3 +145,18 @@ nano .env
 ```
 
 #### Example: (Paste EC2 public IP)
+
+#### Write Frontend Dockerfile =
+```sh
+nano dockerfile
+    FROM node:25-alpine3.21
+    COPY . /opt
+    WORKDIR /opt
+    RUN apk update 
+    RUN apk add apache2
+    RUN npm install
+    RUN npm run build
+    RUN cp -rf dist/* /var/www/localhost/htdocs/
+    EXPOSE 80
+    CMD ["httpd","-D","FOREGROUND"]
+```
