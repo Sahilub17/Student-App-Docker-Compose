@@ -19,7 +19,7 @@ Install MariaDB.
 
 2. EC2 Instance is launched.
  
-3. Docker installed using official documention.
+3. Docker install using official documention.
  
 4. MySQL Client is installed.
 
